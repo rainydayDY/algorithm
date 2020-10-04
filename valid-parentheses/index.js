@@ -18,6 +18,6 @@ var isValid = function(s) {
             if (s[i] !== obj[tail]) return false;
         }
     }
-    return true;
+   return arr.length === 0
 };
 console.log(isValid('()'))
